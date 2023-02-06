@@ -1,0 +1,27 @@
+.section41 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 87.73vh;
+  background: url("../../../public/images/img41.avif") no-repeat;
+}
+
+.section41 .containerr {
+  flex-direction: column;
+}
+.section41 .containerr h1 {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .section41 .containerr h1 {
+    font-size: 32px;
+  }
+  .section41 .containerr h2 {
+    font-size: 56px;
+  }
+  .section41 .containerr {
+    width: 400px;
+  }
+}

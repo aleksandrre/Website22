@@ -1,0 +1,34 @@
+.section21 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7cec9;
+}
+
+.section211 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section211 p {
+  width: 800px;
+  margin-top: 20px;
+}
+.section211 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1220px) {
+  .section211 p {
+    width: 400px;
+  }
+  .section211 h1 {
+    font-size: 30px;
+  }
+}

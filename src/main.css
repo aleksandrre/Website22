@@ -1,0 +1,10 @@
+.containerr {
+  display: flex;
+  width: 1200px;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 112px;
+}

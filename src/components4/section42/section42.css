@@ -1,0 +1,32 @@
+.section42 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  background-color: #c7cec9;
+}
+
+.section42 .containerr h1 {
+  color: #485342;
+}
+.section42 p {
+  color: #485342;
+  width: 500px;
+}
+
+.section42 .containerr {
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .section42 .containerr h1 {
+    font-size: 32px;
+  }
+  .section42 .containerr p {
+    font-size: 14px;
+    width: 300px;
+    margin-top: 15px;
+  }
+}

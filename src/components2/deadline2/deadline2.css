@@ -1,0 +1,17 @@
+.deadline22 {
+  width: 100%;
+  height: 87.73vh;
+  background: url("../../../public/images/img21.avif") no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.deadline22 .containerr {
+  flex-direction: column;
+  justify-content: center;
+}
+.containerr h1 {
+  color: white;
+}
+.containerr h2 {
+  color: white;
+}
